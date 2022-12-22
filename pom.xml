@@ -7,6 +7,10 @@
   <version>1.0</version>
   <name>App</name>
   <url>http://maven.apache.org</url>
+  <properties>
+  <java.version>11</java.version>
+  <maven.compiler.release>${java.version}</maven.compiler.release>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
